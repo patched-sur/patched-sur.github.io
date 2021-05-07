@@ -1,0 +1,12 @@
+.onlyimage {
+    width: 50%;
+    margin: auto;
+}
+
+.imgTitle {
+    width: 3010px;
+    height: 624px;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    background-image: url("Title.png");
+}

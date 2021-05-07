@@ -1,0 +1,95 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+   margin: 0;
+}
+
+
+.topnav {
+    width: 100%;
+    background-color: #ffffff99;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: fixed;
+    backdrop-filter: blur(7.5px);
+}
+
+.popupbar {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #E7F7FF;
+    padding: 10px;
+    margin: 10px;
+    background: hsla(164, 96%, 79%, 1);
+    background: linear-gradient(135deg, hsla(164, 96%, 79%, 1) 100%, hsla(181, 100%, 80%, 1) 0%);
+    background: -moz-linear-gradient(135deg, hsla(164, 96%, 79%, 1) 100%, hsla(181, 100%, 80%, 1) 0%);
+    background: -webkit-linear-gradient(135deg, hsla(164, 96%, 79%, 1) 100%, hsla(181, 100%, 80%, 1) 0%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BFDFF", endColorstr="#94FDE1", GradientType=1 );
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: auto;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+}
+
+.topnav a:hover {
+    background-color: #008268;
+    border-radius: 20px;
+    color: white;
+}
+
+.topnav a:hover.nohighlight {
+    /* background-color: #04c4a1; */
+    color: white;
+}
+
+.mainfocus {
+    margin: 0;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 19% 0;
+    text-align: center;
+    background: hsla(168, 87%, 30%, 1);
+    background: linear-gradient(200deg, hsla(168, 87%, 30%, 0.8) 0%, hsla(146, 75%, 52%, 1) 100%);
+    background: -moz-linear-gradient(200deg, hsla(168, 87%, 30%, 0.8) 0%, hsla(146, 75%, 52%, 1) 100%);
+    background: -webkit-linear-gradient(200deg, hsla(168, 87%, 30%, 0.8) 0%, hsla(146, 75%, 52%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A9176", endColorstr="#27E077", GradientType=1 );
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.h1mainfocus {
+    font-size: 60px;
+    text-align: center;
+}
+
+.h2mainfocus {
+    font-size: 30px;
+    font-weight: 200;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
