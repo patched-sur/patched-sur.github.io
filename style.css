@@ -10,6 +10,13 @@ body {
    margin: 0;
 }
 
+.hstack {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
 
 .topnav {
     width: 99%;
@@ -63,17 +70,20 @@ img.topnav {
     align-items: stretch;
     height: 100%;
     width: 100%;
+    transition: 0.1s linear 100ms
 }
 
 .topnav a:hover {
     background-color: #008268;
     border-radius: 20px;
     color: white;
+    transition: 0.1s linear 100ms
 }
 
 .topnav a:hover.nohighlight {
     /* background-color: #04c4a1; */
     color: white;
+    transition: 0.1s linear 100ms
 }
 
 .mainfocus {
@@ -99,10 +109,62 @@ img.topnav {
     text-align: center;
 }
 
+.h1mainfocus2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #008268;
+}
+
 .h2mainfocus {
     font-size: 30px;
     font-weight: 200;
     width: 40%;
     text-align: center;
     margin: auto;
+}
+
+.h4mainfocus {
+    font-size: 20px;
+    font-weight: 300;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.bgGray {
+    background: #F1F5F9;
+}
+
+.bgGradientA {
+    background: hsla(164, 96%, 79%, 1);
+    background: linear-gradient(90deg, hsla(163, 100%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(163, 100%, 90%, 1)0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(163, 100%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EAFFF9", endColorstr="#FFFFFF", GradientType=1 );
+}
+
+.bgGradientB {
+    background: hsla(164, 96%, 79%, 1);
+    background: linear-gradient(270deg, hsla(163, 100%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(163, 100%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(163, 100%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EAFFF9", endColorstr="#FFFFFF", GradientType=1 );
+}
+
+.boldButton {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    background: #008268;
+    color: white;
+    text-decoration: none;
+    transition: 0.1s linear 100ms
+}
+
+.boldButton:hover {
+    padding-left: 80px;
+    padding-right: 80px;
+    transition: 0.1s linear 100ms
 }
