@@ -181,7 +181,7 @@ img.topnav {
     text-decoration: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .topnav {
         width: 100%;
         margin-left: 0;
